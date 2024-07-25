@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.full-wrapper{
+    width:100%;
+
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* all common css end */
+
+.box{
+    height: 1000px;
+    background: rgb(36, 132, 211);
+
+}
+h1{
+    color: #fff;
+}
+button{
+    padding: 15px 25px;
+    background: rgb(245, 56, 56);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.one{
+    height: 200px;
+    width: 300px;
+    background: rgb(13, 228, 85);
+}
+.two { 
+    height: 200px;
+    width: 300px;
+    background: rgb(221, 24, 162);
+}
+.area{
+    width: 1000px;
+    height: 250px;
+    background: rebeccapurple;
+    position: relative;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background: seashell;
+    position: absolute;
+    border-radius: 50%;
